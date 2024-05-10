@@ -84,7 +84,7 @@ router.get(
     // Handle successful authentication
     res.status(200).json({
       message: "User logged in successfully",
-      user: req.user, // You may want to filter or process user data before sending it
+      user: req.user, 
     });
   }
 );
